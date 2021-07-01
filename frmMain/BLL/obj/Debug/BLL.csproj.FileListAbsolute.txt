@@ -1,0 +1,5 @@
+D:\CNPM\Thư mục mới\CNPM\frmMain\BLL\bin\Debug\BLL.dll
+D:\CNPM\Thư mục mới\CNPM\frmMain\BLL\bin\Debug\BLL.pdb
+D:\CNPM\Thư mục mới\CNPM\frmMain\BLL\obj\Debug\BLL.dll
+D:\CNPM\Thư mục mới\CNPM\frmMain\BLL\obj\Debug\BLL.pdb
+D:\CNPM\Thư mục mới\CNPM\frmMain\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache

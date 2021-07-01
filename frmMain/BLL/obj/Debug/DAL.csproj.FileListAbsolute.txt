@@ -1,0 +1,5 @@
+D:\Công nghệ phần mềm\CNPM\frmMain\BLL\bin\Debug\BLL.dll
+D:\Công nghệ phần mềm\CNPM\frmMain\BLL\bin\Debug\BLL.pdb
+D:\Công nghệ phần mềm\CNPM\frmMain\BLL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Công nghệ phần mềm\CNPM\frmMain\BLL\obj\Debug\BLL.dll
+D:\Công nghệ phần mềm\CNPM\frmMain\BLL\obj\Debug\BLL.pdb

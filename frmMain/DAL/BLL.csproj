@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6130C941-0E6B-457A-920A-DACDF8CC5964}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BangGiaKhamBenh_HuyBLL.cs" />
+    <Compile Include="BenhNhan_HuyBLL.cs" />
+    <Compile Include="DangNhapBLL.cs" />
+    <Compile Include="DatHangBLL.cs" />
+    <Compile Include="DichVuBLL.cs" />
+    <Compile Include="HoaDonKhamBenh_HuyBLL.cs" />
+    <Compile Include="HoaDonThuocBLL.cs" />
+    <Compile Include="KhoaBLL.cs" />
+    <Compile Include="LoaiThuocBLL.cs" />
+    <Compile Include="NhaCungCapBLL.cs" />
+    <Compile Include="NhanVienBLL.cs" />
+    <Compile Include="NhapThuocBLL.cs" />
+    <Compile Include="NhaSanXuatBLL.cs" />
+    <Compile Include="PhieuDichVuBLL.cs" />
+    <Compile Include="PhieuKhamBenhBLL.cs" />
+    <Compile Include="PhongBLL.cs" />
+    <Compile Include="PhongDieuTri_HuyBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report_HoaDonKhamBenh_HuyBLL.cs" />
+    <Compile Include="ThongTinNhanVienBLL.cs" />
+    <Compile Include="ThuocBLL.cs" />
+    <Compile Include="ToaThuocBLL.cs" />
+    <Compile Include="ViTriBLL.cs" />
+    <Compile Include="XuLyGirdViewBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\DAL.csproj">
+      <Project>{7c1c1f5f-f03c-4742-b9d0-30537cb5d2db}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+D:\CNPM\Thư mục mới\CNPM\frmMain\DAL\bin\Debug\DAL.dll
+D:\CNPM\Thư mục mới\CNPM\frmMain\DAL\bin\Debug\DAL.pdb
+D:\CNPM\Thư mục mới\CNPM\frmMain\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\CNPM\Thư mục mới\CNPM\frmMain\DAL\obj\Debug\DAL.dll
+D:\CNPM\Thư mục mới\CNPM\frmMain\DAL\obj\Debug\DAL.pdb
+D:\CNPM\Thư mục mới\CNPM\frmMain\DAL\bin\Debug\BLL.dll
+D:\CNPM\Thư mục mới\CNPM\frmMain\DAL\bin\Debug\BLL.pdb
